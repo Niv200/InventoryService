@@ -36,11 +36,11 @@ In order to create box, one shall first define the type and items and only then 
 example of where this would be relevant:
 Box of M3 screws with lengths 10mm, 12mm, 16mm, 20mm.
 
-#Usage
+##### Usage
 
 There are in total 11 endpoints
 
-**Types /types** \
+**Types /types** 
 get - return list of all currently existing types
 post - create a new type\
 put - edit existing type\
@@ -58,7 +58,7 @@ where {?} is a request param
   PUT - Update an existing type
 ```
 
-**Items /items** \
+**Items /items** 
 ```/items
   GET - Retrieve a list of all items
   POST - Create a new item
@@ -72,7 +72,7 @@ where {?} is a request param
   PATCH - Update the quantity of a specific item by its ID 
 ```
 
-**Boxes /box** \
+**Boxes /box** 
 ```/box
 GET - Retrieve a list of all boxes
 POST - Create a new box
