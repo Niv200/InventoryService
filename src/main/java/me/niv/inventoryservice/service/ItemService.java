@@ -1,16 +1,16 @@
 package me.niv.inventoryservice.service;
 
 import static java.util.stream.Collectors.toList;
-import static me.niv.inventoryservice.datain.QuantityChange.ADD;
-import static me.niv.inventoryservice.datain.QuantityChange.REMOVE;
-import static me.niv.inventoryservice.datain.QuantityChange.SET;
+import static me.niv.inventoryservice.dto.request.QuantityChange.ADD;
+import static me.niv.inventoryservice.dto.request.QuantityChange.REMOVE;
+import static me.niv.inventoryservice.dto.request.QuantityChange.SET;
 
 import java.util.List;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
-import me.niv.inventoryservice.datain.ItemQuantityRequest;
-import me.niv.inventoryservice.datain.ItemRequest;
-import me.niv.inventoryservice.dataout.ItemResponse;
+import me.niv.inventoryservice.dto.request.ItemQuantityRequest;
+import me.niv.inventoryservice.dto.request.ItemRequest;
+import me.niv.inventoryservice.dto.response.ItemResponse;
 import me.niv.inventoryservice.entity.ItemEntity;
 import me.niv.inventoryservice.entity.TypeEntity;
 import me.niv.inventoryservice.exception.ApplicationException;

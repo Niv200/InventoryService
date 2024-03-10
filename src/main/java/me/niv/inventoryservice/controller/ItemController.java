@@ -2,9 +2,9 @@ package me.niv.inventoryservice.controller;
 
 import java.util.List;
 import lombok.RequiredArgsConstructor;
-import me.niv.inventoryservice.datain.ItemQuantityRequest;
-import me.niv.inventoryservice.datain.ItemRequest;
-import me.niv.inventoryservice.dataout.ItemResponse;
+import me.niv.inventoryservice.dto.request.ItemQuantityRequest;
+import me.niv.inventoryservice.dto.request.ItemRequest;
+import me.niv.inventoryservice.dto.response.ItemResponse;
 import me.niv.inventoryservice.service.ItemService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

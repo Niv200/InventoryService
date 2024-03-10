@@ -1,4 +1,4 @@
-package me.niv.inventoryservice.datain;
+package me.niv.inventoryservice.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

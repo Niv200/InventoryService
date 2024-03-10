@@ -2,9 +2,9 @@ package me.niv.inventoryservice.controller;
 
 import java.util.List;
 import lombok.RequiredArgsConstructor;
-import me.niv.inventoryservice.datain.BoxItemRequest;
-import me.niv.inventoryservice.datain.BoxRequest;
-import me.niv.inventoryservice.dataout.BoxResponse;
+import me.niv.inventoryservice.dto.request.BoxItemRequest;
+import me.niv.inventoryservice.dto.request.BoxRequest;
+import me.niv.inventoryservice.dto.response.BoxResponse;
 import me.niv.inventoryservice.service.BoxService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

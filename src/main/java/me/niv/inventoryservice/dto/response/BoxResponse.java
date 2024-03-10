@@ -1,4 +1,4 @@
-package me.niv.inventoryservice.dataout;
+package me.niv.inventoryservice.dto.response;
 
 import java.util.List;
 import lombok.Builder;
